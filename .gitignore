@@ -1,0 +1,21 @@
+############
+ #  IDEA  #
+############
+
+*.iml
+*.xml
+
+.idea/
+out/
+logs/
+target/
+/build/
+/bin/
+dist/
+
+##########
+ #  GIT #
+##########
+
+*.git
+.git/
