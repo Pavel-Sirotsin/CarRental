@@ -8,7 +8,7 @@ import java.io.Serializable;
  * <p>Implements {@link Cloneable} and {@link Serializable}.</p>
  * <p>Stores individual id of each DTO object.</p>
  */
-public abstract class EntityDTO implements Cloneable, Serializable {
+public abstract class EntityDTO implements Cloneable{
     /**
      * The field holding {@code Integr} ID.
      */
@@ -27,5 +27,4 @@ public abstract class EntityDTO implements Cloneable, Serializable {
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
-
 }

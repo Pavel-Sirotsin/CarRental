@@ -1,6 +1,6 @@
 package com.epam.carrental.dao.entity;
 
-public enum UserRole {
+public enum UserRole implements Cloneable{
     CLIENT, ADMIN;
 
     @Override
